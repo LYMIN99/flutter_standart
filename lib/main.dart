@@ -4,13 +4,13 @@ import 'package:flutter/material.dart';
 import 'package:myapp/app.dart';
 
 void main() {
-   // Ensure that widgets are initialized before running the app
+  // Ensure that widgets are initialized before running the app
   WidgetsFlutterBinding.ensureInitialized();
 
   // Perform any required initializations (like service setup or configuration)
   // await setupDependencyInjection();
 
-   // Check authentication status or load preferences before starting the app
+  // Check authentication status or load preferences before starting the app
   // final authenticationService = locator<AuthenticationService>();
   // final isAuthenticated = await authenticationService.checkAuthStatus();
 
@@ -28,6 +28,4 @@ void main() {
   FlutterError.onError = (FlutterErrorDetails details) {
     FlutterError.dumpErrorToConsole(details);
   };
-  
-  runApp(const MyApp());
 }
